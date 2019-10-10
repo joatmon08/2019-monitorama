@@ -4,6 +4,13 @@ Monitorama Baltimore | October 21, 2019
 
 ---
 
+## There's a story.
+
+- The Theories
+- In Practice
+
+---
+
 # The Theories
 
 ---
@@ -35,15 +42,46 @@ Monitorama Baltimore | October 21, 2019
 
 ---
 
-- __Premise:__ We should test how our technology architecture meets our goals at this
-  point in time.
-- __Premise:__ We should think about integrating testing activities earlier in our
-  engineering process.
-- __Conclusion:__ We should design fitness functions early in our engineering process.
-
----
-
 ### Fitness Function-Driven Development
 
+> introduces continuous feedback for architectural conformance and
+> inform the development process as it happens, rather than after the fact.
+
+<small>[Fitness Function-Driven Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) by Rosemary Wang & Paula Paul</small>
+
 ---
 
+### Operability
+
+> is the ability to keep a system in secure and reliable functioning condition
+
+---
+
+### "Operability"-Driven Development
+
+- Observability
+- Security
+- Compliance
+- Resilience
+- Performance
+
+---
+
+# In Practice
+
+---
+
+Could we express _fitness functions_ of
+our operations architecture in code?
+
+---
+
+## Thank you!
+
+Rosemary Wang
+
+she/her
+
+@joatmon08
+
+Developer Advocate, HashiCorp
