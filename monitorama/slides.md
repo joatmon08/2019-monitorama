@@ -7,7 +7,7 @@ Monitorama Baltimore | October 21, 2019
 ## There's a story.
 
 - The Theories
-- In Practice
+- What Actually Happened
 
 ---
 
@@ -67,12 +67,54 @@ Monitorama Baltimore | October 21, 2019
 
 ---
 
-# In Practice
+# What Actually Happened
 
 ---
 
-Could we express _fitness functions_ of
-our operations architecture in code?
+"This business-critical application needs to be revamped in every way."
+
+---
+
+(The operability of this business-critical application is questionable.)
+
+---
+
+| Team | Tools | Aim |
+|---|---|---|
+| Infrastructure | Agents | Sleep |
+| Development | Logging | Productivity |
+| "Operations" | Alerts | Direction |
+| Security | SIEM, Agents | Trust but Verify |
+| Compliance | Word Documents | Auditability |
+| Finance | Spreadsheets | Accountability |
+| Consumer | Application | $$$ |
+
+---
+
+Could we use _fitness functions_ to express
+these aims and improve operability?
+
+---
+
+### Fitness function-driven development helped...
+
+- Frame questions we _couldn't_ answer but should
+- Relate technical decisioning to business value
+- Highlight conflicts between stakeholder aims
+- KonMari method old assumptions, tools, and alerts
+- Present compelling arguments for new tools
+
+---
+
+### We also learned not to...
+
+- Over-optimize too early
+- Assume what stakeholders want
+- Spend too much time building fitness functions
+
+---
+
+## What changed in our architecture that affects how effectively we operate?
 
 ---
 
