@@ -23,14 +23,6 @@ func TestSecurityForContainer(t *testing.T) {
 }
 
 // As a security engineer
-// I want to ensure the VM hosting an application is secure
-// So that an attacker cannot exploit it.
-func TestSecurityForVM(t *testing.T) {
-	hasCleanScan := false
-	assert.True(t, hasCleanScan, "Found VM with high vulnerabilities")
-}
-
-// As a security engineer
 // I want to ensure the codebase does not have plaintext secrets
 // So that our credentials are not compromised
 func TestSecurityForPlaintextSecrets(t *testing.T) {
@@ -49,7 +41,7 @@ func TestSecurityForRootLogin(t *testing.T) {
 // As a security engineer
 // I want to know that a product owner and team lead have reviewed a change to production
 // So that we are SOX compliant.
-func TestSOXReviewWithProductOwnerAndTeamLead(t *testing.T) {
+func TestSecuritySOXReviewWithProductOwnerAndTeamLead(t *testing.T) {
 	hasRolesReviewed := false
 	assert.True(t, hasRolesReviewed, "Found we do not have a product owner and/or team lead reviewing")
 }

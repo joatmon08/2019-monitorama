@@ -25,3 +25,8 @@ reveal-md slides.md --theme night -w
 ```shell
 go test
 ```
+
+## Useful References
+
+- [Minikube Audit Logging](https://github.com/kubernetes/minikube/issues/4488)
+- [Installing Falco](https://falco.org/docs/installation/)
