@@ -4,23 +4,46 @@ Monitorama Baltimore | October 21, 2019
 
 ---
 
-## There's a story.
+#### Evolutionary Architecture
 
-- The Theories
-- What Actually Happened
-
----
-
-# The Theories
+<img src="images/cycle.png" alt="Diagram of a cycle of improvement, happier users, and architecture
+changes" width="700"/>
 
 ---
 
-### An Evolutionary Architecture
+### Operability
 
-> supports __incremental, guided change__ as a first principle across multiple
-> dimensions.
+> is the ability to keep a system in secure and reliable functioning condition
 
-<small>"Building Evolutionary Architectures" by Neal Ford, Rebecca Parsons, & Patrick Kua</small>
+---
+
+### It's a quality to aim for across teams.
+
+Security
+
+Compliance
+
+"Operations"
+
+Development
+
+Infrastructure
+
+Platform
+
+Finance
+
+---
+
+### Architecture changes often lead to operational changes.
+
+Container architecture => vulnerability management
+
+Microservices => observability
+
+GDPR => data inventory reporting
+
+Continuous Delivery => No more change advisory boards?
 
 ---
 
@@ -33,12 +56,15 @@ Monitorama Baltimore | October 21, 2019
 
 ---
 
-### Shift-Left Testing
+<img src="images/knowns.png" alt="Quadrants. Testing is known knowns, Monitoring
+is known unknowns, Stuff someone else knows is unknown knowns, and Observability
+is unknown unknowns." width="900"/>
 
-> integrates testing activities earlier in the engineering process (i.e.,
-> Test-Driven Development).
+---
 
-<small>Concept originally from Larry Smith, 2001</small>
+<img src="images/fitnessfunction.png" alt="Quadrants. Testing is known knowns, Monitoring
+is known unknowns, Stuff someone else knows is unknown knowns, and Observability
+is unknown unknowns." width="900"/>
 
 ---
 
@@ -51,66 +77,25 @@ Monitorama Baltimore | October 21, 2019
 
 ---
 
-### Operability
+### Let's try this.
 
-> is the ability to keep a system in secure and reliable functioning condition
-
----
-
-### "Operability"-Driven Development
-
-- Observability
-- Security
-- Compliance
-- Resilience
-- Performance
+Security ❤️
 
 ---
 
-# What Actually Happened
+### What did we like about it?
 
----
-
-"This business-critical application needs to be revamped in every way."
-
----
-
-(The operability of this business-critical application is questionable.)
-
----
-
-| Team | Tools | Aim |
-|---|---|---|
-| Infrastructure | Agents | Sleep |
-| Development | Logging | Productivity |
-| "Operations" | Alerts | Direction |
-| Security | SIEM, Agents | Trust but Verify |
-| Compliance | Word Documents | Auditability |
-| Finance | Spreadsheets | Accountability |
-| Consumer | Application | $$$ |
-
----
-
-Could we use _fitness functions_ to express
-these aims and improve operability?
-
----
-
-### Fitness function-driven development helped...
-
-- Frame questions we _couldn't_ answer but should
+- KonMari method for former assumptions, tools, and telemetry
+- Convert unknown knowns into monitoring or testing
 - Relate technical decisioning to business value
 - Highlight conflicts between stakeholder aims
-- KonMari method old assumptions, tools, and alerts
-- Present compelling arguments for new tools
 
 ---
 
-### We also learned not to...
+### What would we improve?
 
-- Over-optimize too early
-- Assume what stakeholders want
-- Spend too much time building fitness functions
+- Try not to over-optimize
+- Balance implemention with review from stakehholders
 
 ---
 
