@@ -3,6 +3,7 @@ package main
 import (
 	"testing"
 
+	"github.com/joatmon08/slides/monitorama/mock"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -31,7 +32,7 @@ func TestSecurityForPlaintextSecrets(t *testing.T) {
 }
 
 // As a security engineer
-// I want to know when someone logs in as root
+// I want to know how long someone uses root
 // So that I can assess if it is a bad actor.
 func TestSecurityForRootLogin(t *testing.T) {
 	isRootLogin := false
@@ -42,6 +43,9 @@ func TestSecurityForRootLogin(t *testing.T) {
 // I want to know that a product owner and team lead have reviewed a change to production
 // So that we are SOX compliant.
 func TestSecuritySOXReviewWithProductOwnerAndTeamLead(t *testing.T) {
-	hasRolesReviewed := false
-	assert.True(t, hasRolesReviewed, "Found we do not have a product owner and/or team lead reviewing")
+	pipeline := mock.Pipeline{}
+	approvers := pipeline.GetApproversForPipeline()
+	assert.NotEqual(t, approvers[0], approvers[1], "Approvers should not be the same")
+	assert.Contains(t, []string{mock.RoleTeamLead, mock.RoleProductOwner}, approvers[0].Role, "Approver must be team lead or product owner")
+	assert.Contains(t, []string{mock.RoleTeamLead, mock.RoleProductOwner}, approvers[1].Role, "Approver must be team lead or product owner")
 }
