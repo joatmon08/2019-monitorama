@@ -1,0 +1,15 @@
+- rule: my_programs_opened_file
+  desc: track whenever a set of programs opens a file
+  condition: proc.name in (my_programs) and evt.type=open
+  output: a tracked program opened a file (user=%user.name command=%proc.cmdline file=%fd.name)
+  priority: INFO
+  tags: [filesystem]
+- rule: Sudo Potential bypass of Runas user restrictions (CVE-2019-14287)
+  desc: When sudo is configured to allow a user to run commands as an arbitrary user via the ALL keyword in a Runas specification, it is possible to run commands as root by specifying the user ID -1 or 4294967295. This can be used by a user with sufficient sudo privileges to run commands as root even if the Runas specification explicitly disallows root access as long as the ALL keyword is listed first in the Runas specification
+  condition: >
+    spawned_process and
+    proc.name="sudo" and
+    (proc.cmdline contains "-u#-1" or proc.cmdline contains "-u#4294967295")
+  output: "Detect sudo exploit (CVE-2019-14287) (user=%user.name command=%proc.cmdline container=%container.info)"
+  priority: CRITICAL
+  tags: [filesystem, privilege_escalation]

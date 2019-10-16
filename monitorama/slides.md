@@ -11,13 +11,7 @@ changes" width="700"/>
 
 ---
 
-### Operability
-
-> is the ability to keep a system in secure and reliable functioning condition
-
----
-
-### It's a quality to aim for across teams.
+### Architectural changes affect everyone...
 
 Security
 
@@ -29,13 +23,13 @@ Development
 
 Infrastructure
 
-Platform
+"Platform"
 
 Finance
 
 ---
 
-### Architecture changes often lead to operational changes.
+### And the way they operate.
 
 Container architecture => vulnerability management
 
@@ -44,6 +38,12 @@ Microservices => observability
 GDPR => data inventory reporting
 
 Continuous Delivery => No more change advisory boards?
+
+---
+
+### Operability
+
+> is the ability to keep a system in secure and reliable functioning condition
 
 ---
 
@@ -62,12 +62,6 @@ is unknown unknowns." width="900"/>
 
 ---
 
-<img src="images/fitnessfunction.png" alt="Quadrants. Testing is known knowns, Monitoring
-is known unknowns, Stuff someone else knows is unknown knowns, and Observability
-is unknown unknowns." width="900"/>
-
----
-
 ### Fitness Function-Driven Development
 
 > introduces continuous feedback for architectural conformance and
@@ -80,6 +74,12 @@ is unknown unknowns." width="900"/>
 ### Let's try this.
 
 Security ❤️
+
+---
+
+<img src="images/fitnessfunction.png" alt="Quadrants. Testing is known knowns, Monitoring
+is known unknowns, Stuff someone else knows is unknown knowns, and Observability
+is unknown unknowns." width="900"/>
 
 ---
 

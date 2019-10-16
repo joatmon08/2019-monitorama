@@ -79,5 +79,5 @@ func TestSecurityIncidentResponsePlanAvailable(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
-	assert.Contains(t, document, "Incident Response Plan", "Did not find incident response plan as expected")
+	assert.Contains(t, document, "Last Reviewed: 2019", "Incident response plan has not been reviewed recently")
 }
