@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "presentation": "reveal-md slides.md --theme night",
-    "generate": "reveal-md slides.md --theme night --static docs"
+    "generate": "reveal-md slides.md --theme night --static ."
   },
   "repository": {
     "type": "git",
