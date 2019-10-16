@@ -1,5 +1,9 @@
 package mock
 
+import (
+	"time"
+)
+
 const (
 	RoleDeveloper    = "Developer"
 	RoleTeamLead     = "Team Lead"
@@ -13,6 +17,8 @@ type Approver struct {
 
 type Pipeline struct {
 	Approvers []*Approver
+	StartTime time.Time
+	EndTime   time.Time
 }
 
 func (p *Pipeline) GetApproversForPipeline() []*Approver {
@@ -26,4 +32,8 @@ func (p *Pipeline) GetApproversForPipeline() []*Approver {
 			Role: RoleDeveloper,
 		},
 	}
+}
+
+func (p *Pipeline) GetDeploymentTime() time.Duration {
+	return p.EndTime.Sub(p.StartTime)
 }
