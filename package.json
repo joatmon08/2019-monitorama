@@ -1,0 +1,19 @@
+{
+  "name": "2019-monitorama",
+  "version": "1.0.0",
+  "description": "Presentation: Monitorama 2019",
+  "main": "index.js",
+  "scripts": {
+    "presentation": "reveal-md slides.md --theme night",
+    "generate": "reveal-md slides.md --theme night --static docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joatmon08/2019-monitorama.git"
+  },
+  "author": "Rosemary Wang",
+  "license": "MPL2",
+  "devDependencies": {
+    "reveal-md": "3.3.1"
+  }
+}
