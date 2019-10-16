@@ -86,16 +86,16 @@ Security ❤️
 ### What did we like about it?
 
 - KonMari method for former assumptions, tools, and telemetry
-- Convert unknown knowns into monitoring or testing
+- Highlight gaps in process, tooling, and telemetry
 - Relate technical decisioning to business value
-- Highlight conflicts between stakeholder aims
+- Organize stakeholder aims
 
 ---
 
 ### What would we improve?
 
 - Try not to over-optimize
-- Balance implemention with review from stakehholders
+- Balance implemention with review from stakeholders
 
 ---
 
