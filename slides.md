@@ -75,7 +75,7 @@ is unknown unknowns." width="900"/>
 
 Security ❤️
 
-### [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
+### [hashi.co/ffdd-live](https://hashi.co/ffdd-live)
 
 ---
 
@@ -107,7 +107,11 @@ is unknown unknowns." width="900"/>
 
 ## Thank you!
 
-### [github.com/](https://hashi.co/2019-monitorama)
+-----
+
+[github.com/joatmon08/2019-monitorama](https://github.com/joatmon08/2019-monitorama)
+
+-----
 
 Rosemary Wang (she/her)
 
