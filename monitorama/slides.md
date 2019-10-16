@@ -75,6 +75,8 @@ is unknown unknowns." width="900"/>
 
 Security ❤️
 
+### [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
+
 ---
 
 <img src="images/fitnessfunction.png" alt="Quadrants. Testing is known knowns, Monitoring
@@ -105,9 +107,9 @@ is unknown unknowns." width="900"/>
 
 ## Thank you!
 
-Rosemary Wang
+### [github.com/](https://hashi.co/2019-monitorama)
 
-she/her
+Rosemary Wang (she/her)
 
 @joatmon08
 
