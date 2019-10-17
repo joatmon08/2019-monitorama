@@ -31,13 +31,12 @@ Finance
 
 ### And the way they operate.
 
-Container architecture => vulnerability management
-
-Microservices => observability
-
-GDPR => data inventory reporting
-
-Continuous Delivery => No more change advisory boards?
+| Architectural Change | Operational Change |
+|:---|:---|
+| Container architecture | Vulnerability Management |
+| Microservices | Observability |
+| GDPR | Data Inventory Reporting |
+| Continuous Delivery | Change Advisory Boards? |
 
 ---
 
