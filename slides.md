@@ -2,9 +2,13 @@
 
 --------
 
-Monitorama Baltimore | October 21, 2019
+Monitorama Baltimore 2019 | @joatmon08
 
-<small>@joatmon08</small>
+---
+
+### [joatmon08.github.io/2019-monitorama](https://joatmon08.github.io/2019-monitorama)
+
+### [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
 
 ---
 
@@ -80,7 +84,7 @@ is unknown unknowns." width="900"/>
 
 Security ❤️
 
-### [hashi.co/ffdd-live](https://hashi.co/ffdd-live)
+### [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
 
 ---
 
