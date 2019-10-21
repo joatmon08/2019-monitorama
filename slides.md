@@ -6,9 +6,9 @@ Monitorama Baltimore 2019 | @joatmon08
 
 ---
 
-### [joatmon08.github.io/2019-monitorama](https://joatmon08.github.io/2019-monitorama)
+Slides: [joatmon08.github.io/2019-monitorama](https://joatmon08.github.io/2019-monitorama)
 
-### [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
+VS Code Live Share: [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
 
 ---
 
