@@ -6,10 +6,6 @@ Monitorama Baltimore 2019 | @joatmon08
 
 ---
 
-### Slides: [joatmon08.github.io/2019-monitorama](https://joatmon08.github.io/2019-monitorama)
-
---------
-
 ### VS Code Live Share: [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
 
 ---
@@ -106,8 +102,8 @@ is unknown unknowns." width="900"/>
 
 - KonMari method for former assumptions, tools, and telemetry
 - Highlight gaps in process, tooling, and telemetry
-- Relate technical decisioning to business value
-- Organize stakeholder aims
+- Open discussions for technical debt
+- Develop mutual learning context
 
 ---
 
