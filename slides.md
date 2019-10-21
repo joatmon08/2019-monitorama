@@ -67,6 +67,12 @@ Finance
 
 ---
 
+Service-Level Objectives can be a fitness function...
+
+but there are more!
+
+---
+
 <img src="images/knowns.png" alt="Quadrants. Testing is known knowns, Monitoring
 is known unknowns, Stuff someone else knows is unknown knowns, and Observability
 is unknown unknowns." width="900"/>
