@@ -1,6 +1,10 @@
 ## What's Fitness Function-Driven Development for Operability?
 
+--------
+
 Monitorama Baltimore | October 21, 2019
+
+<small>@joatmon08</small>
 
 ---
 
@@ -30,6 +34,8 @@ Finance
 ---
 
 ### And the way they operate.
+
+-------
 
 | Architectural Change | Operational Change |
 |:---|:---|
@@ -104,11 +110,16 @@ is unknown unknowns." width="900"/>
 
 ---
 
+## References
+
+- [github.com/joatmon08/2019-monitorama](https://github.com/joatmon08/2019-monitorama)
+- [Fitness Function-Driven
+  Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development)
+- [Building Evolutionary Architectures by Neal Ford, Rebecca Parsons, & Patrick Kua](https://www.thoughtworks.com/books/building-evolutionary-architectures)
+
+---
+
 ## Thank you!
-
------
-
-[github.com/joatmon08/2019-monitorama](https://github.com/joatmon08/2019-monitorama)
 
 -----
 
