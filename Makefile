@@ -3,3 +3,6 @@ slide:
 
 pages:
 	npm run generate
+
+print:
+	reveal-md slides.md --theme night --print slides.pdf

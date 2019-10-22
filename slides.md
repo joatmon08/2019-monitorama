@@ -6,10 +6,6 @@ Monitorama Baltimore 2019 | @joatmon08
 
 ---
 
-### VS Code Live Share: [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
-
----
-
 #### Evolutionary Architecture
 
 <img src="images/cycle.png" alt="Diagram of a cycle of improvement, happier users, and architecture
@@ -88,7 +84,7 @@ is unknown unknowns." width="900"/>
 
 Security ❤️
 
-### [hashi.co/2019-monitorama](https://hashi.co/2019-monitorama)
+### [github.com/joatmon08/2019-monitorama](https://github.com/joatmon08/2019-monitorama)
 
 ---
 
