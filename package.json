@@ -14,7 +14,7 @@
   "author": "Rosemary Wang",
   "license": "MPL-2.0",
   "devDependencies": {
-    "reveal-md": "3.3.1"
+    "reveal-md": "5.4.0"
   },
   "dependencies": {
     "pdf-puppeteer": "^1.1.8",
